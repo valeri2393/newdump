@@ -164,17 +164,17 @@ else:
 # Проверяем, существует ли type в sources
 source_text = sources.get(type, "Источник неизвестен")
 
-# # Сводная таблица со средней скидкой
-# st.markdown(
-#     HEADER_FORMAT.format('Средний уровень цен по категориям и ресурсам'),
-#     unsafe_allow_html=True
-# )
-# st.write(
-#     """Числа в таблице показывают, на сколько % в среднем цены
-#     <span style='color:red'>ниже</span> или
-#     <span style='color:limegreen'>выше</span> РРЦ СТН.""",
-#     unsafe_allow_html=True
-# )
+# Сводная таблица со средней скидкой
+st.markdown(
+    HEADER_FORMAT.format('Средний уровень цен по категориям и ресурсам'),
+    unsafe_allow_html=True
+)
+st.write(
+    """Числа в таблице показывают, на сколько % в среднем цены
+    <span style='color:red'>ниже</span> или
+    <span style='color:limegreen'>выше</span> РРЦ СТН.""",
+    unsafe_allow_html=True
+)
 
 # # Запрос к базе данных
 # if type:
