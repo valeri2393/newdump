@@ -1,4 +1,5 @@
-DATE_FORMAT = '%d.%m.%Y'
+DATE_FORMAT = "%d.%m.%Y"
+
 HEADER_FORMAT = "<h4 style='color: black;'>{}"
 SOURCE_FORMAT = """<i><span style='color:DarkGray'>{}</span></i>"""
 LINK_FORMAT = """<a target="_blank" href="{}">{}</a>
