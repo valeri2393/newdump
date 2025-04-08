@@ -19,7 +19,7 @@ def update():
         updater.button_parse(**resource_dict)
 
 
-schedule.every().day.at("14:13").do(update)
+schedule.every().day.at("09:24").do(update)
 while True:
     schedule.run_pending()
     time.sleep(1)
